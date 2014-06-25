@@ -1,0 +1,111 @@
+<html>
+<head>
+  <TITLE>UploadBean - API and Design</TITLE>
+<STYLE TYPE="text/css">
+<!--
+a {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #0000FF; text-decoration: none}
+a:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #333333; text-decoration: underline}
+-->
+</STYLE>
+</head>
+
+<body bgcolor="#FFFFFF" onLoad="" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" link="#333333" vlink="#6666FF" alink="#333333">
+<table width="770" border="0" name="Main" height="600" cellpadding="0" cellspacing="0" vspace="0" hspace="0">
+  <tr>
+    <td>
+      <table width="770" border="0" name="Head" height="86" cellpadding="0" cellspacing="0" vspace="0" hspace="0">
+        <tr>
+          <td width="279" height="86"><a href="http://www.javazoom.net" target="_top"><img src="finemenu/title.gif" width="279" height="86" border="0" alt="JavaZOOM Web Site" vspace="0" hspace="0"></a></td>
+          <td width="491" height="86" align="center"><a href="http://www.javazoom.net/jzservlets/uploadbean/uploadbean.html" target="_top"><img src="img/uploadbean.gif" width="400" height="43" border="0" alt="UploadBean homepage"></a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td height="514">
+      <table width="770" border="0" height="514" name="Body" cellpadding="0" cellspacing="0" vspace="0" hspace="0">
+        <tr nowrap>
+          <td height="514" width="146" valign="top">
+            <table width="146" border="0" height="514" cellpadding="0" cellspacing="0" vspace="0" hspace="0">
+              <tr nowrap align="left">
+                <td width="146" height="146" background="finemenu/middle.gif"> 
+                  <b><font face="Verdana, Arial, Helvetica, sans-serif">&nbsp;<font color="#000066">&#149;</font></font><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></b><font color="#000099" size="-1" face="Verdana, Arial, Helvetica, sans-serif"><b><a href="software.html" target="_top">Software</a></b></font><b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><br>
+                  </font><font face="Verdana, Arial, Helvetica, sans-serif">&nbsp;<font color="#000066">&#149;</font></font>&nbsp;</b><font color="#000099" size="-1" face="Verdana, Arial, Helvetica, sans-serif"><b><a href="installation.html">Installation</a></b></font><b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><br>
+                  </font><font face="Verdana, Arial, Helvetica, sans-serif">&nbsp;<font color="#000066">&#149;</font></font>&nbsp;</b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1" color="#000066"><b><a href="developerguide.html">Developer 
+                  Guide</a></b></font><b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><br>
+                  </font><font face="Verdana, Arial, Helvetica, sans-serif">&nbsp;<font color="#000066">&#149;</font></font>&nbsp;</b><font color="#000066" size="-1" face="Verdana, Arial, Helvetica, sans-serif"><b>API &amp; Design</b></font><b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><br>
+                  </font><font face="Verdana, Arial, Helvetica, sans-serif">&nbsp;<font color="#000066">&#149;</font></font>&nbsp;</b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b><a href="license.html" target="_top">License</a></b></font> </td>
+              </tr>
+              <tr nowrap align="center">
+                <td width="146" height="167" background="finemenu/bottom.gif">
+                  <a href="applets/jads21/jads.html" target="_self"><br>
+                  </a></td>
+              </tr>
+              <tr nowrap align="center" valign="top">
+                <td width="146" height="201"><font size="-2"><a href="index.html">&lt;&lt; back</a></font> </td>
+              </tr>
+            </table>
+          </td>
+          <td height="514" width="624" align="center" valign="top"> 
+            <table width="94%" border="0" cellspacing="1" cellpadding="0" align="center">
+              <tr> 
+                <td valign="top" height="103"> 
+                  <p align="center"><font color="#000099" face="Verdana, Arial, Helvetica, sans-serif"><b>- API &amp; Design -</b></font></p>
+                  <p align="left"><font size="-1" face="Verdana, Arial, Helvetica, sans-serif"> <font color="#333333"><b>&nbsp;<img src="img/r_hand.gif" width="33" height="14" align="absmiddle"> </b></font><b><font color="#FF0000">UploadBean API</font></b><font color="#FF0000"><b> :</b></font><font color="#333333"><b> </b></font><br>
+In addition to the Developer Guide, the generated JavaDoc will be useful for a programmer who needs more information on classes, methods and fields.</font></p>
+                  <p align="center"><font size="-1" face="Verdana, Arial, Helvetica, sans-serif"><b>[<a href="api/index.html" target="_blank">Browse UploadBean JavaDoc</a>]<br>
+                  </b></font></p>
+                  <p align="left"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="-1"><font color="#333333"><b>&nbsp;<img src="img/r_hand.gif" width="33" height="14" align="absmiddle"> </b></font><b><font color="#FF0000">DBStore interface </font></b><font color="#FF0000"><b> :</b></font><font color="#333333"><b> </b></font><br>
+If database store implementation doesn't suit to your needs (schema, SQL requests, ...) then you could implement yours through to the DBStore abstract class. Using upBean.setDatabasestoreimplemetation(&quot;your.package.YourDBStoreClass&quot;) will force UploadBean to load your class instead of default one. A sample, open source, implementation is available in <a href="http://www.javazoom.net/jzservlets/uploadbean/uploadbeantools.html">add-ons</a> section.<br>
+                    <br>
+                  </font><font size="-1" face="Verdana, Arial, Helvetica, sans-serif"><font color="#333333"><b>&nbsp;<img src="img/r_hand.gif" width="33" height="14" align="absmiddle"> </b></font><b><font color="#FF0000">UploadListener interface </font></b><font color="#FF0000"><b> :</b></font><font color="#333333"><b> </b></font><br>
+You could be notified on upload events as fileUploadStarted, dataRead and fileUploaded. Open source samples are available in <a href="http://www.javazoom.net/jzservlets/uploadbean/uploadbeantools.html">add-on</a>s section (email notification on each upload and progress status pop-up while uploading).<br>
+<br>
+                  </font></font><font size="-1" face="Verdana, Arial, Helvetica, sans-serif"><font color="#333333" size="-1" face="Verdana, Arial, Helvetica, sans-serif"><b>&nbsp;<img src="img/r_hand.gif" width="33" height="14" align="absmiddle"> </b></font><b><font color="#FF0000">UploadBean design :</font></b><font color="#333333"><b><br>
+                  </b></font>Here is the UML class diagram of <b>javazoom.upload</b> package. Basically, UploadBean class has a Vector of UploadListener (for notification), a Vector of UploadParameters (for history) and optionally a Vector of UploadFile (for memory store). This package also includes an Archiver class to manage excluse access to ZIP archive store. Finally the MultipartFormDataRequest handles &quot;multipart/form-data&quot; HTTP POST requests through a pluggable multipart parser (see javazoom.upload.parsing package).</font></p>
+                  <p align="center"><font size="-1" face="Verdana, Arial, Helvetica, sans-serif"><a href="img/uploaddesign.gif" target="_blank"><img src="img/suploaddesign.gif" border="0" alt="Click to zoom in"></a> </font></p>
+                  <p align="left"><font size="-1" face="Verdana, Arial, Helvetica, sans-serif"><b><br>
+                  </b></font></p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>    </td>
+  </tr>
+</table>
+<table width="770" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="146">
+    <td width="624" align="center" bgcolor="#FFFFFF">
+      <table border="0" cellspacing="1" cellpadding="0" vspace="0" hspace="0" name="Short Menu" width="100%" align="center" height="30">
+        <tr>
+          <td nowrap align="center" width="14%" bgcolor="#FFFF99"> <font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://www.javazoom.net" target="_top">[News]</a></font> 
+          </td>
+          <td nowrap align="center" width="14%" bgcolor="#FFFF99"> <font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://www.javazoom.net/applets/applets.html" target="_top">[Applets]</a></font> 
+          </td>
+          <td nowrap align="center" width="14%" bgcolor="#FFFF99"> <font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://www.javazoom.net/jzservlets/servlets.html" target="_top">[Servlets]</a></font> 
+          </td>
+          <td nowrap align="center" width="16%" bgcolor="#FFFF99"> <font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://www.javazoom.net/services/services.html"
+        target="_top">[Services]</a></font> 
+          </td>
+          <td nowrap width="14%" align="center" bgcolor="#FFFF99"> <font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://www.javazoom.net/javalayer/javalayer.html" target="_top">[Projects]</a></font> 
+          </td>
+          <td nowrap align="center" width="14%" bgcolor="#FFFF99"> <font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://www.javazoom.net/links/links.html" target="_top">[Links]</a></font> 
+          </td>
+          <td nowrap align="center" width="14%" bgcolor="#FFFF99"> <font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://www.javazoom.net/links/links.html" target="_top">[About]</a></font> 
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="146" align="center" valign="bottom">
+    <td width="624" align="center" valign="bottom" nowrap>
+      <p><font size="-1" face="Courier New, Courier, mono">Copyright &copy; JavaZOOM 1999-2006</font></p>
+      <p><font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://java.sun.com" target="_blank">Java</a> and all Java-based marks are trademarks or registered trademarks of Sun Microsystems, Inc. in the U. S. and other countries.<br />
+  All other company and/or product names are the property of their respective owners.</font></p></td>
+  </tr>
+</table>
+</body>
+</html>

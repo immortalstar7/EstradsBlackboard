@@ -1,0 +1,431 @@
+<html>
+<head>
+  <TITLE>UploadBean - Software</TITLE>
+<STYLE TYPE="text/css">
+<!--
+a {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #0000FF; text-decoration: none}
+a:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #333333; text-decoration: underline}
+-->
+</STYLE>
+</head>
+
+<body bgcolor="#FFFFFF" onLoad="" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" link="#333333" vlink="#6666FF" alink="#333333">
+<table width="770" border="0" name="Main" height="600" cellpadding="0" cellspacing="0" vspace="0" hspace="0">
+  <tr>
+    <td>
+      <table width="770" border="0" name="Head" height="86" cellpadding="0" cellspacing="0" vspace="0" hspace="0">
+        <tr>
+          <td width="279" height="86"><a href="http://www.javazoom.net" target="_top"><img src="finemenu/title.gif" width="279" height="86" border="0" alt="JavaZOOM Web Site" vspace="0" hspace="0"></a></td>
+          <td width="491" height="86" align="center"><a href="http://www.javazoom.net/jzservlets/uploadbean/uploadbean.html" target="_top"><img src="img/uploadbean.gif" width="400" height="43" border="0" alt="UploadBean homepage"></a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td height="514">
+      <table width="770" border="0" height="514" name="Body" cellpadding="0" cellspacing="0" vspace="0" hspace="0">
+        <tr nowrap>
+          <td height="514" width="146" valign="top">
+            <table width="146" border="0" height="514" cellpadding="0" cellspacing="0" vspace="0" hspace="0">
+              <tr nowrap align="left">
+                <td width="146" height="146" background="finemenu/middle.gif"> 
+                  <b><font face="Verdana, Arial, Helvetica, sans-serif">&nbsp;<font color="#000066">&#149;</font></font><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></b><font color="#000099" size="-1" face="Verdana, Arial, Helvetica, sans-serif"><b>Software</b></font><b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><br>
+                  </font><font face="Verdana, Arial, Helvetica, sans-serif">&nbsp;<font color="#000066">&#149;</font></font>&nbsp;</b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><a href="installation.html" target="_top"><b>Installation</b></a></font><b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><br>
+                  </font><font face="Verdana, Arial, Helvetica, sans-serif">&nbsp;<font color="#000066">&#149;</font></font>&nbsp;</b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><a href="developerguide.html" target="_top"><b>Developer 
+                  Guide </b></a></font><b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><br>
+                  </font></b><b><font face="Verdana, Arial, Helvetica, sans-serif">&nbsp;<font color="#000066">&#149;</font></font>&nbsp;</b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><a href="api.html" target="_top"><b>API 
+                  &amp; Design</b></a></font><b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><br>
+                  </font><font face="Verdana, Arial, Helvetica, sans-serif">&nbsp;<font color="#000066">&#149;</font></font>&nbsp;</b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b><a href="license.html" target="_top">License</a></b></font> </td>
+              </tr>
+              <tr nowrap align="center">
+                <td width="146" height="167" background="finemenu/bottom.gif">
+                  <a href="applets/jads21/jads.html" target="_self"><br>
+                  </a></td>
+              </tr>
+              <tr nowrap align="center" valign="top">
+                <td width="146" height="201"><font size="-2"><a href="index.html">&lt;&lt; back</a></font> </td>
+              </tr>
+            </table>
+          </td>
+          <td height="514" width="624" align="center" valign="top"> 
+            <table width="100%" border="0" cellspacing="1" cellpadding="0">
+              <tr>
+                <td valign="top"> 
+                  <p align="center"><font color="#000099" face="Verdana, Arial, Helvetica, sans-serif"><b>- Software -</b></font></p>
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif"><font size="-1">UploadBean is a JAVA JSP/Servlets upload component. Here are the three requirements you need to run it :<br>
+                    <br>
+&#149;&nbsp;<b>Servlet Engine or Application Server compliant<font color="#CC0000"> JSP1.1/Servlets2.2</font> API</b> (or higher).<br>
+                  </font><font size="-1" face="Verdana, Arial, Helvetica, sans-serif">&#149;&nbsp;</font><b><font size="-1">JVM 1.2 </font></b><font size="-1">or higher</font><b><font size="-1">.</font></b><font size="-1"><br>
+                    </font><font size="-1" face="Verdana, Arial, Helvetica, sans-serif">&#149;&nbsp;</font><font size="-1">Browser (Internet Explorer 4.x or higher, Netscape 4.x or higher, Mozilla ...)<br>
+                    </font><font size="-1" face="Verdana, Arial, Helvetica, sans-serif">&#149;&nbsp;</font><font size="-1">Optionally a database.</font></font></p>
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b><font color="#FF0000">UploadBean 
+                    should run under <u>ANY</u> platform supporting JSP1.1/Servlets 
+                    2.2 or J2EE 1.2 </font></b><font color="#FF0000">(or higher).</font><font color="#FF0000"><b><br>
+</b></font><b><font color="#FF0000"><br>
+                  <font color="#CC0000"><u>Tested platforms</u> :</font></font></b></font></p>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td bgcolor="#333333"> 
+                        <table width="100%" border="0" cellspacing="1" cellpadding="1">
+                          <tr align="center" bgcolor="#666666"> 
+                            <td><font color="#FFFFFF" size="-1" face="Verdana, Arial, Helvetica, sans-serif"><b>Servlet Engine</b></font></td>
+                            <td><font color="#FFFFFF" size="-1" face="Verdana, Arial, Helvetica, sans-serif"><b>WebServer</b></font></td>
+                            <td><font color="#FFFFFF" size="-1" face="Verdana, Arial, Helvetica, sans-serif"><b>&nbsp;Database&nbsp;</b></font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1" color="#FFFFFF"><b>JVM</b></font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1" color="#FFFFFF"><b>OS</b></font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Tomcat 5.5</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Tomcat 5.5</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>SUN - 1.5</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Win32</font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Tomcat 5.0.28</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Tomcat 5.0.28</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">MySQL 
+                              4.0.17<br>
+                              <font size="-2">(+ConnectorJ driver)</font></font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>SUN - 1.4</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Win32</font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Tomcat 4.1.30</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Tomcat 4.1.30</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>SUN - 1.3.1</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Win32</font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Tomcat 4.0.3</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Tomcat 4.0.3</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Oracle 8.1.6<br>
+                              <font size="-2">(+Type 4 Thin driver)</font></font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>SUN - 1.3.1_B4</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Win32</font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Tomcat 4.0.4-LE</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Tomcat 4.0.4-LE</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Oracle 9.0.1<br>
+                              <font size="-2">(+Type 4 Thin driver)</font></font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>SUN - 1.4_01</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Win32</font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Tomcat 3.3.1</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Apache 
+                              1.3.22</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>SUN - 1.3</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Solaris 
+                              2.7 </font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">ServletExcec 
+                              4.1.1 </font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Apache 
+                              1.3.23 </font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>SUN - 1.4.1</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Win32</font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Weblogic 6.1</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>WebLogic 6.1</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>SUN - 1.3.1</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Win32</font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Weblogic 7.0 SP1</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Weblogic 7.0 SP1</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>SUN - 1.3.1</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Win32</font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Orion 1.5.4</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Orion 1.5.4</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>SUN - 1.3.1</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Win32</font></td>
+                          </tr>
+                          <tr align="center" bgcolor="#FFFFFF"> 
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Tomcat 
+                              3.2.x</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Tomcat 
+                              3.2.x</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">SUN 
+                              - 1.2.2_07</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Win32</font></td>
+                          </tr>
+                          <tr align="center" bgcolor="#FFFFFF"> 
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Tomcat 
+                              3.2.4 </font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Apache 
+                              1.3.22</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">SUN 
+                              - 1.3_01</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Solaris 
+                              2.7 </font></td>
+                          </tr>
+                          <tr align="center" bgcolor="#FFFFFF"> 
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Resin 
+                              2.0.5</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Resin 
+                              2.0.5</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">SUN 
+                              - 1.3_01</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Win32</font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Resin 2.1.2</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Resin 2.1.2</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">MySQL 
+                              3.23.51<br>
+                              <font size="-2">(+Type 4 mm2 driver)</font></font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>SUN - 1.3.1_03</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Win32</font></td>
+                          </tr>
+                          <tr align="center" bgcolor="#FFFFFF"> 
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">JRun 
+                              3.1</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">JRun 
+                              3.1</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">SUN 
+                              - 1.3_01</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Win32</font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>JRun 4.0</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>JRun 4.0</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>SUN - 1.3.1_03</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Win32</font></td>
+                          </tr>
+                          <tr align="center" bgcolor="#FFFFFF"> 
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">SunONE 
+                              7.0 </font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">SunONE 
+                              7.0</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">SUN 
+                              - 1.3.1</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Win32</font></td>
+                          </tr>
+                          <tr align="center" bgcolor="#FFFFFF"> 
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">WebSphere 
+                              3.5.3 </font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">WebSphere 
+                              3.5.3</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">IBM 
+                              - 1.2.2</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Win32</font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>WebSphereAE 4.0.3</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>IBM HTTP server 1.3.19</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">IBM 
+                              DB2 UDB 7.2<br>
+                              <font size="-2">(+Type 2 IBM driver)</font> </font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>IBM - 1.3</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Win32</font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>WebSphere 5.0</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>WebSphere 5.0</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"> 
+                              </font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>IBM - 1.3.1</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Win32</font></td>
+                          </tr>
+                          <tr align=center bgcolor=#ffffff> 
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>WebSphere 5.1</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>WebSphere 5.1</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"> 
+                              </font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>IBM - 1.4</font></td>
+                            <td><font 
+                              face="Verdana, Arial, Helvetica, sans-serif" 
+                              size=-1>Win32</font></td>
+                          </tr>
+                          <tr align="center" bgcolor="#FFFFFF"> 
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">VisualAgeForJava 
+                              4.0</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">VisualAgeForJava 
+                              4.0 </font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">-</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">IBM 
+                              - 1.2.2 PTF9</font></td>
+                            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Win32</font></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"> 
+                    <font size="-2">More tests to come ...</font><br>
+                    <br>
+                  </font></p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>    </td>
+  </tr>
+</table>
+<table width="770" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="146">
+    <td width="624" align="center" bgcolor="#FFFFFF">
+      <table border="0" cellspacing="1" cellpadding="0" vspace="0" hspace="0" name="Short Menu" width="100%" align="center" height="30">
+        <tr>
+          <td nowrap align="center" width="14%" bgcolor="#FFFF99"> <font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://www.javazoom.net" target="_top">[News]</a></font> 
+          </td>
+          <td nowrap align="center" width="14%" bgcolor="#FFFF99"> <font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://www.javazoom.net/applets/applets.html" target="_top">[Applets]</a></font> 
+          </td>
+          <td nowrap align="center" width="14%" bgcolor="#FFFF99"> <font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://www.javazoom.net/jzservlets/servlets.html" target="_top">[Servlets]</a></font> 
+          </td>
+          <td nowrap align="center" width="16%" bgcolor="#FFFF99"> <font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://www.javazoom.net/services/services.html"
+        target="_top">[Services]</a></font> 
+          </td>
+          <td nowrap width="14%" align="center" bgcolor="#FFFF99"> <font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://www.javazoom.net/javalayer/javalayer.html" target="_top">[Projects]</a></font> 
+          </td>
+          <td nowrap align="center" width="14%" bgcolor="#FFFF99"> <font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://www.javazoom.net/links/links.html" target="_top">[Links]</a></font> 
+          </td>
+          <td nowrap align="center" width="14%" bgcolor="#FFFF99"> <font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://www.javazoom.net/links/links.html" target="_top">[About]</a></font> 
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="146" align="center" valign="bottom">
+    <td width="624" align="center" valign="bottom" nowrap>
+      <p><font size="-1" face="Courier New, Courier, mono">Copyright &copy; JavaZOOM 1999-2006</font></p>
+      <p><font size="-2" face="Arial, Helvetica, sans-serif"><a href="http://java.sun.com" target="_blank">Java</a> and all Java-based marks are trademarks or registered trademarks of Sun Microsystems, Inc. in the U. S. and other countries.<br />
+  All other company and/or product names are the property of their respective owners.</font></p></td>
+  </tr>
+</table>
+</body>
+</html>

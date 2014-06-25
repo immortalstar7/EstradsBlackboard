@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Dhruv
+Build-Jdk: 1.7.0_45
+Specification-Title: Commons Logging
+Specification-Version: 1.0
+X-Compile-Target-JDK: 1.1
+Specification-Vendor: Apache Software Foundation
+X-Compile-Source-JDK: 1.2
+Implementation-Version: 1.1.1
+Implementation-Vendor-Id: org.apache
+Implementation-Vendor: Apache Software Foundation
+Implementation-Title: Commons Logging
+Extension-Name: org.apache.commons.logging
+
